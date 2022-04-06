@@ -1,0 +1,60 @@
+.first_colum {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: orangered;
+    border-radius: 15px;
+}
+.day {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: orangered;
+    border-radius: 15px;
+}
+.hour {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    height: 75px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 0px 15px 0px 15px;
+}
+.hour_day {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    height: 75px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 0px 15px 0px 15px;
+}
+.full_day {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    gap: 10px 20px;
+    height: 100%;
+}
+.sala {
+    padding-right: 5px;
+    margin: auto;
+    width: 30%;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.przedmiot {
+    margin: auto;
+    width: 70%;
+    font-size: 0.8em;
+    padding-left: 10px;
+}
+.godziny {
+    margin: auto;
+    font-weight: bold;
+}
+.day_title {
+    margin: auto;
+    font-weight: bold;
+}
