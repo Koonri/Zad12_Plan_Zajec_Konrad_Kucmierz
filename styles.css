@@ -11,7 +11,7 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: orangered;
+    background-color: coral;
     border-radius: 15px;
 }
 
@@ -19,7 +19,7 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: orangered;
+    background-color: coral;
     border-radius: 15px;
 }
 
@@ -27,7 +27,7 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: orangered;
+    background-color: coral;
     border-radius: 15px;
     justify-content: space-evenly;
 }
@@ -35,7 +35,7 @@ h3 {
 .hour {
     display: flex;
     flex-direction: row;
-    background-color: orange;
+    background-color: lightsalmon;
     height: 75px;
     width: 150px;
     border-radius: 15px;
@@ -45,7 +45,7 @@ h3 {
 .hour_day {
     display: flex;
     flex-direction: row;
-    background-color: orange;
+    background-color: lightsalmon;
     height: 75px;
     width: 150px;
     border-radius: 15px;
@@ -56,7 +56,7 @@ h3 {
     display: flex;
     flex-direction: row;
     align-content: space-around;
-    gap: 60px;
+    gap: 10px;
     height: 100%;
 }
 
@@ -94,11 +94,15 @@ h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    
 }
 .week {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+
+    flex-wrap: wrap;
+    gap: 1%;
+    
 }
 
 @media screen and (min-width: 600px) {
@@ -108,11 +112,16 @@ h3 {
     .week {
         display: flex;
         flex-direction: row;
-        gap: 20px;
-        justify-content: space-around;
+        justify-content: center;
     }
     .title {
         font-weight: bold;
         font-size: 1.5em;
     }
+}
+@media screen and (max-width: 1169px) {
+    .repeating_colum {
+        display: flex;
+    }
+    
 }
