@@ -1,11 +1,12 @@
 * {
     text-align: center;
 }
+
 h3 {
     font-size: 1em;
     font-weight: normal;
-
 }
+
 .first_colum {
     display: flex;
     flex-direction: column;
@@ -13,6 +14,7 @@ h3 {
     background-color: orangered;
     border-radius: 15px;
 }
+
 .repeating_colum {
     display: flex;
     flex-direction: column;
@@ -20,6 +22,7 @@ h3 {
     background-color: orangered;
     border-radius: 15px;
 }
+
 .day {
     display: flex;
     flex-direction: column;
@@ -28,6 +31,7 @@ h3 {
     border-radius: 15px;
     justify-content: space-evenly;
 }
+
 .hour {
     display: flex;
     flex-direction: row;
@@ -37,6 +41,7 @@ h3 {
     border-radius: 15px;
     margin: 0px 15px 10px 15px;
 }
+
 .hour_day {
     display: flex;
     flex-direction: row;
@@ -46,6 +51,7 @@ h3 {
     border-radius: 15px;
     margin: 0px 15px 10px 15px;
 }
+
 .full_day {
     display: flex;
     flex-direction: row;
@@ -53,6 +59,7 @@ h3 {
     gap: 60px;
     height: 100%;
 }
+
 .sala {
     padding-right: 5px;
     margin: auto;
@@ -60,45 +67,52 @@ h3 {
     padding-left: 5px;
     font-weight: bold;
 }
+
 .przedmiot {
     margin: auto;
     width: 70%;
     font-size: 0.8em;
     padding-left: 10px;
 }
+
 .godziny {
     margin: auto;
     font-weight: bold;
 }
+
 .day_title {
     margin: auto;
     font-weight: bold;
 }
+
 .time {
     width: 100%;
     margin: auto;
 }
+
 .full_day {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
-.Week {
+.week {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 @media screen and (min-width: 600px) {
- .repeating_colum {
-     display: none;
- }    
- .Week {
-     display: flex;
-     flex-direction: column;
-     gap: 20px;
-     justify-content: space-around;
-   
- }
-
+    .repeating_colum {
+        display: none;
+    }
+    .week {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-around;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
 }
