@@ -1,4 +1,18 @@
+* {
+    text-align: center;
+}
+h3 {
+    font-size: 1em;
+    font-weight: normal;
+}
 .first_colum {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: orangered;
+    border-radius: 15px;
+}
+.repeating_colum {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -11,6 +25,7 @@
     gap: 20px;
     background-color: orangered;
     border-radius: 15px;
+    justify-content: space-evenly;
 }
 .hour {
     display: flex;
@@ -19,7 +34,7 @@
     height: 75px;
     width: 150px;
     border-radius: 15px;
-    margin: 0px 15px 0px 15px;
+    margin: 0px 15px 10px 15px;
 }
 .hour_day {
     display: flex;
@@ -28,7 +43,7 @@
     height: 75px;
     width: 150px;
     border-radius: 15px;
-    margin: 0px 15px 0px 15px;
+    margin: 0px 15px 10px 15px;
 }
 .full_day {
     display: flex;
@@ -57,4 +72,13 @@
 .day_title {
     margin: auto;
     font-weight: bold;
+}
+.time {
+    width: 100%;
+    margin: auto;
+}
+.full_day {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
